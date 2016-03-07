@@ -5,6 +5,30 @@
             color: red;
       background-color: cornsilk;
         }
+.second {
+      display: flex;
+      justify-content:center;
+            color: blue;
+      background-color: cornsilk;
+        }
+.third {
+      display: flex;
+      justify-content:center;
+            color: blue;
+      background-color: cornsilk;
+        }
+.fourd {
+      display: flex;
+      justify-content:center;
+            color: blue;
+      background-color: cornsilk;
+        }
+.fived {
+      display: flex;
+      justify-content:center;
+            color: blue;
+      background-color: cornsilk;
+        }
 article,
 aside,
 details,
