@@ -1,4 +1,8 @@
 /*! normalize.css v1.0.0 | MIT License | git.io/normalize */
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700);
+@font-face {
+   font-family: 'Lora', serif;
+}
 body {
     
     background-image: url(images/bg.jpg);
@@ -6,15 +10,19 @@ body {
     background-repeat: repeat-x;
     margin-left: 450px;
     margin-right: 450px;
-    
+    font-family: 
+   font-family: 'Lora', serif; 
 }
+
 #page
 {
     width: 50%;
     margin: 0 auto;
+    font-family: 'Lora', serif;
 }
 
 .first {
+    font-family: 'Lora', serif;
     margin-top: -10px;
       display: flex;
       justify-content:flex-end;
@@ -24,36 +32,40 @@ body {
     word-spacing: 40px;
       }
 .second {
+    font-family: 'Lora', serif;
       display: flex;
       justify-content:center;
-            color: blue;
+            color: grey;
     line-height: 120px;
     text-transform: uppercase;
     font-size: 14px;
           }
 .third {
+     font-family: 'Lora', serif;
       display: flex;
       justify-content:flex-start;
-            color: blue;
+            color: grey;
         }
 .fourd {
+     font-family: 'Lora', serif;
       display: flex;
       justify-content:flex-start;
-            color: blue;
+            color: gray;
      word-spacing: 40px;
     line-height: 120px;
         }
 .fived {
+     font-family: 'Lora', serif;
       display: flex;
     
       justify-content:flex-start;
-            color: blue;
+            color: gray;
     text-transform: uppercase;
      line-height: 120px;
     word-spacing: 40px;
        }
 .imgcenter {
-    
+     font-family: 'Lora', serif;
       display: flex;
     flex-wrap:wrap;
     align-content:center;
@@ -66,24 +78,28 @@ body {
 margin-right:auto;  
 }
 .sixted {
+     font-family: 'Lora', serif;
      line-height: 240px;
       display: flex;
       justify-content:flex-start;
-            color: blue;
+            color: gray;
         }
 .sevented {
+     font-family: 'Lora', serif;
       display: flex;
       justify-content:flex-start;
-            color: blue;
+            color: whitesmoke;
         }
 .eithrd {
+     font-family: 'Lora', serif;
       display: flex;
       justify-content:flex-start;
-            color: blue;
+            color: whitesmoke;
         }
 .nighted {
+     font-family: 'Lora', serif;
       display: flex;
       justify-content:flex-start;
-            color: blue;
+            color: whitesmoke;
      line-height: 120px;
         }
