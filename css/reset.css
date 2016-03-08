@@ -4,6 +4,8 @@ body {
     background-image: url(images/bg.jpg);
     background-attachment: scroll;
     background-repeat: repeat-x;
+    margin-left: 450px;
+    margin-right: 450px;
     
 }
 #page
@@ -19,26 +21,69 @@ body {
         color: red;
         font-size: 12px;
     text-align: right;
+    word-spacing: 40px;
       }
 .second {
       display: flex;
       justify-content:center;
             color: blue;
+    line-height: 120px;
+    text-transform: uppercase;
+    font-size: 14px;
           }
 .third {
       display: flex;
-      justify-content:center;
+      justify-content:flex-start;
             color: blue;
-    
         }
 .fourd {
       display: flex;
-      justify-content:center;
+      justify-content:flex-start;
             color: blue;
+     word-spacing: 40px;
+    line-height: 120px;
         }
 .fived {
       display: flex;
-    flex-direction:row;
-      justify-content:center;
+    
+      justify-content:flex-start;
             color: blue;
+    text-transform: uppercase;
+     line-height: 120px;
+    word-spacing: 40px;
        }
+.imgcenter {
+    
+      display: flex;
+    flex-wrap:wrap;
+    align-content:center;
+      justify-content:center;
+     
+       }
+.imgcenter figcaption
+{
+  margin-left:auto ;
+margin-right:auto;  
+}
+.sixted {
+     line-height: 240px;
+      display: flex;
+      justify-content:flex-start;
+            color: blue;
+        }
+.sevented {
+      display: flex;
+      justify-content:flex-start;
+            color: blue;
+        }
+.eithrd {
+      display: flex;
+      justify-content:flex-start;
+            color: blue;
+        }
+.nighted {
+      display: flex;
+      justify-content:flex-start;
+            color: blue;
+     line-height: 120px;
+        }
