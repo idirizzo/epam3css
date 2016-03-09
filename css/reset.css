@@ -31,6 +31,9 @@ body {
     text-align: right;
     word-spacing: 40px;
       }
+#menu {
+    font-family: 'Lora', serif; 
+}
 .second {
     font-family: 'Lora', serif;
       display: flex;
@@ -40,6 +43,14 @@ body {
     text-transform: uppercase;
     font-size: 14px;
           }
+#styles li{ display: flex;
+      justify-content:center;flex-wrap:wrap
+font-family: 'Lora', serif;
+    list-style-type: disc;
+    padding: 5px;
+    border: 1px solid #fff
+}
+#styles li.hover{background: #000;}
 .third {
      font-family: 'Lora', serif;
       display: flex;
