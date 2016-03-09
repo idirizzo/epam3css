@@ -100,8 +100,15 @@ font-family: 'Lora', serif;
     padding: 5px;
     
 }
-#navigation ul li a {padding: 0 10px;font-family: 'Lora', serif; text-decoration: none;line-height: 65px;}
-#navigation li.hover{background: #000;}
+#navigation ul li a {
+    padding: 0 10px;
+    font-family: 'Lora', serif; 
+    text-decoration: none;
+    line-height: 65px;}
+#navigation ul li a:hover{background: rgba(167, 67, 67, 0.8);text-decoration: underline;} 
+#navigation li.hover{
+    background: #000;
+}
 .third {
      font-family: 'Lora', serif;
       display: flex;
