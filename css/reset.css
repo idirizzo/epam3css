@@ -61,7 +61,17 @@ body {
     font-family: 
    font-family: 'Lora', serif; 
 }
-
+.contacts {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+}
+.mail {
+  flex: 0 0 auto;
+    height: 30px;
+    line-height: 30px;
+}
 #page
 {
     width: 50%;
