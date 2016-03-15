@@ -102,67 +102,127 @@ a {
     justify-content: center;
     margin-left: 1px;
 }
-
-#menu {
+header {
+    padding: 45px 0;
+}
+header .menu{
+    justify-content: center;
+}
+#Mbig{
+    padding: 10px 15px;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #29BDCA;
+}
+.menu {
     font-family: 'Lora', serif; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 970px;
+    height: 20px;
+    margin: 0 auto;
+    display: flex;
+    padding: 12px 25px;
 }
 .second {
     font-family: 'Lora', serif;
-      display: flex;
-      justify-content:center;
-            color: grey;
-    line-height: 120px;
+    display: flex;
+    justify-content:center;
+    color: black;
+    padding: 25px 25px;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+}
+.navigation li {
     text-transform: uppercase;
-    font-size: 14px;
-          }
-#navigation li{float: left;
+    float: left;
     text-decoration: none;
     display: flex;
-      justify-content:center;flex-wrap:wrap;
-font-family: 'Lora', serif;
+    justify-content:center;
+    flex-wrap:wrap;
     list-style-type: disc;
-    padding: 5px;
-    
+    padding: 20px 0;    
 }
-#navigation ul li a {
+.navigation ul li a {
     padding: 0 10px;
     font-family: 'Lora', serif; 
     text-decoration: none;
-    line-height: 65px;}
-#navigation ul li a:hover{background: rgba(167, 67, 67, 0.8);text-decoration: underline;} 
-#navigation li.hover{
+    line-height: 75px;
+    color: grey;
+}
+.navigation ul li a:hover{color: black;text-decoration: underline;} 
+.navigation li.hover{
     background: #000;
 }
 .third {
-     font-family: 'Lora', serif;
-      display: flex;
-      justify-content:flex-start;
-            color: grey;
+    font-family: 'Lora', serif;
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+    color: grey;
+    width: 970px;
+    margin: 0 auto;
+    display: flex;
+    padding: 60px 0;
         }
 .fourd {
-     font-family: 'Lora', serif;
-      display: flex;
-      justify-content:flex-start;
-            color: gray;
-     word-spacing: 40px;
+    font-family: 'Lora', serif;
+    justify-content:flex-start;
+    color: gray;
+    word-spacing: 40px;
+    width: 970px;
+    margin: 0 auto;
+    display: flex;
     line-height: 120px;
         }
 .fived {
-     font-family: 'Lora', serif;
-      display: flex;
-    
-      justify-content:flex-start;
-            color: gray;
+    font-family: 'Lora', serif;
+    width: 970px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    display: flex;
+    justify-content:flex-start;
+    color: gray;
     text-transform: uppercase;
-     line-height: 120px;
+    padding: 1px 5px;
     word-spacing: 40px;
        }
+.navigation1 li {
+    text-transform: uppercase;
+    float: left;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    list-style-type: disc;
+    padding: 20px 0; 
+    
+}
+.navigation1 ul li a {
+    padding: 0 10px;
+    font-family: 'Lora', serif; 
+    text-decoration: none;
+    line-height: 75px;
+    color: grey;
+}
+.navigation1 ul li a:hover{background: #2095a0;text-decoration: none;color: white} 
+.navigation1 li.hover{
+    background: #000;
+}
 .imgcenter {
      font-family: 'Lora', serif;
-      display: flex;
+    width: 970px;
+    margin: 0 auto;
+    display: flex;
     flex-wrap:wrap;
     align-content:center;
-      justify-content:center;
+    justify-content:center;
      
        }
 .imgcenter figcaption
@@ -173,23 +233,33 @@ margin-right:auto;
 .sixted {
      font-family: 'Lora', serif;
      line-height: 240px;
-      display: flex;
+     width: 970px;
+    margin: 0 auto;
+    display: flex;
       justify-content:flex-start;
             color: gray;
         }
 .sevented {
      font-family: 'Lora', serif;
-      display: flex;
+     width: 970px;
+    margin: 0 auto;
+    display: flex;
       justify-content:flex-start;
             color: whitesmoke;
         }
 .eithrd {
+    width: 970px;
+    margin: 0 auto;
+    display: flex;
      font-family: 'Lora', serif;
       display: flex;
       justify-content:flex-start;
             color: whitesmoke;
         }
 .nighted {
+    width: 970px;
+    margin: 0 auto;
+    display: flex;
      font-family: 'Lora', serif;
       display: flex;
       justify-content:flex-start;
