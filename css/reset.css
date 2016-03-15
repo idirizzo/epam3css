@@ -52,43 +52,57 @@ table {
    font-family: 'Lora', serif;
 }
 body {
-    
     background-image: url(images/bg.jpg);
     background-attachment: scroll;
     background-repeat: repeat-x;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-family: 
-   font-family: 'Lora', serif; 
+    font-family: 'Lora', serif; 
 }
-.contacts {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    width: 100%;
-}
-.mail {
-  flex: 0 0 auto;
-    height: 30px;
-    line-height: 30px;
-}
-#page
-{
-    width: 50%;
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+.first {
     margin: 0 auto;
+    display: flex;
+    width: 960px;
+}
+.contacts .first {
     font-family: 'Lora', serif;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    font-size: 13px;
+    text-align: right;
+}
+.contacts a:hover {
+    color:cadetblue;
+}
+.contacts .mail {
+    color:cadetblue;
+}
+.contacts .tel {
+    color:darkcyan;
+}
+.contacts .mail:hover, .contacts .tel:hover {
+    text-decoration: underline;
+}
+.contacts .first > a{
+    padding: 7px 0;
+    margin: 0 8px;
+}
+.topicon {
+    display: flex;
+    margin-left: 10px;
+}
+.topicon a{
+    font-size: 1.2em;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1px;
 }
 
-.first {
-    font-family: 'Lora', serif;
-    margin-top: -10px;
-      display: flex;
-      justify-content:flex-end;
-        color: red;
-        font-size: 12px;
-    text-align: right;
-    word-spacing: 40px;
-      }
 #menu {
     font-family: 'Lora', serif; 
 }
