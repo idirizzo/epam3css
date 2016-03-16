@@ -203,14 +203,19 @@ header .menu{
     font-family: 'Lora', serif;
     width: 970px;
     background: #f2f2f2;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     justify-content:flex-start;
-    color: gray;
     text-transform: uppercase;
-    padding: 1px 5px;
+    padding: 0 0 0 5px;
     word-spacing: 40px;
-       }
+    line-height: 25px;
+}
+.fived .all{
+    background: #2095a0;
+    color: white;
+    text-decoration: none;
+}
 .navigation1 li {
     text-transform: uppercase;
     float: left;
@@ -220,18 +225,21 @@ header .menu{
     flex-wrap:wrap;
     list-style-type: disc;
     padding: 20px 0; 
-    
 }
 .navigation1 ul li a {
     padding: 0 10px;
     font-family: 'Lora', serif; 
     text-decoration: none;
-    line-height: 75px;
-    color: grey;
+    color: gray;
 }
-.navigation1 ul li a:hover{background: #2095a0;text-decoration: none;color: white} 
+.navigation1 ul li a:hover {
+    background: #2095a0;
+    text-decoration: none;
+    color: white
+} 
 .navigation1 li.hover{
     background: #000;
+    color: white;
 }
 .imgcenter {
      font-family: 'Lora', serif;
@@ -244,8 +252,8 @@ header .menu{
 }
 .imgcenter figcaption
 {
-  margin-left:auto ;
-margin-right:auto;  
+    margin-left:auto ;
+    margin-right:auto;  
 }
 .sixted {
      font-family: 'Lora', serif;
