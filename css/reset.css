@@ -162,25 +162,43 @@ header .menu{
 .third {
     font-family: 'Lora', serif;
     display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-    color: grey;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
     width: 970px;
     margin: 0 auto;
-    display: flex;
     padding: 60px 0;
         }
+.home{
+    color: white;
+    padding: 0 10px 0 30px;
+}
+.set{
+    color: lightskyblue;
+    padding: 0 0 0 10px;
+}
 .fourd {
     font-family: 'Lora', serif;
-    justify-content:flex-start;
-    color: gray;
-    word-spacing: 40px;
-    width: 970px;
-    margin: 0 auto;
     display: flex;
-    line-height: 120px;
-        }
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items: left;
+    color: gray;
+    width: 970px;
+    padding: 0 0 80px 60px;
+    margin: 0 auto;
+    
+}
+.port{
+    color: white;
+    font-size: 34px;
+    padding: 0 0 10px 0;
+}
+.wib{
+    color: gainsboro;
+    font-size: 20px;
+}
 .fived {
     font-family: 'Lora', serif;
     width: 970px;
