@@ -122,7 +122,7 @@ header .menu{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 970px;
+    width: 1170px;
     height: 20px;
     margin: 0 auto;
     display: flex;
@@ -166,9 +166,9 @@ header .menu{
     justify-content: flex-start;
     align-items: center;
     color: black;
-    width: 970px;
+    width: 1170px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 15px 0;
         }
 .home{
     color: white;
@@ -185,9 +185,10 @@ header .menu{
     flex-direction: column;
     align-items: left;
     color: gray;
-    width: 970px;
-    padding: 0 0 40px 60px;
+    width: 1110px;
+    
     margin: 0 auto;
+    padding:40px 10px 40px 0;
     
 }
 .port{
@@ -201,7 +202,7 @@ header .menu{
 }
 .fived {
     font-family: 'Lora', serif;
-    width: 970px;
+    width: 1110px;
     background: #f2f2f2;
     margin: 30px auto;
     display: flex;
@@ -253,56 +254,120 @@ header .menu{
     align-content:center;
     justify-content:flex-start;
     flex-flow: row wrap;
+    
+}
+.blue{
+    color: skyblue;
+    font-size: 25px;
 }
 .boximg{
     padding: 0 5px 25px 25px;
     color: gainsboro;
-    font-size: 20px;
+    font-size: 10px;
   }
 .imgcenter figcaption
 {
     margin-left:auto ;
     margin-right:auto;  
 }
+.buy {
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    
+ }
 .sixted {
      font-family: 'Lora', serif;
      line-height: 10px;
-     width: 970px;
-     margin: 0 auto;
-     display: flex;
-     justify-content:flex-start;
-     color: gray;
+     color: darkcyan;
      font-size: 24px;
-     padding: 10px;
-     align-content:center;
-        }
+}
+.act button {
+    background-color: darkcyan;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    box-shadow: 0px 3px 0px 0px rgb(0, 100, 110);
+    outline: none;
+    color: white;
+    margin-left: 10px;
+}
+.act button:hover{
+    box-shadow: 0px 2px 0px 0px rgb(0, 100, 110);
+    margin-top: 1px;
+}
+.act button:active{
+    box-shadow: 0px 2px 0px 0px rgb(0, 100, 110);
+    margin-top: 1px;
+}
+
 .sevented {
     font-family: 'Lora', serif;
-    width: 970px;
-    margin: 0 auto;
+    width: 1110px;
+    font-size: 1.5em;
     display: flex;
-    justify-content:flex-start;
-    color: whitesmoke;
-    font-size: 24px;
-    padding: 0 0 10px 0;
-    align-content:center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    padding: 20px 20px;
+    color: white;
+}
+.ico a{
+    align-items: center;
+    justify-content: center;
+    margin-left: 1px;
+    display: flex;
 }
 .eithrd {
-    width: 970px;
-    margin: 0 auto;
+    width: 1110px;
+    margin: 100px auto;
     display: flex;
-     font-family: 'Lora', serif;
-      display: flex;
-      justify-content:flex-start;
-            color: whitesmoke;
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content:space-between;
+    color: whitesmoke;
+    padding: 0 auto;
         }
+.about{
+    margin-left: 0;
+}
+.twitter{
+    position: relative;
+    
+}
+.recent{
+    margin-right: 5px;
+}
 .nighted {
-    width: 970px;
-    margin: 0 auto;
+    width: 1110px;
+    margin:0 auto;
     display: flex;
-     font-family: 'Lora', serif;
-      display: flex;
-      justify-content:flex-start;
-            color: whitesmoke;
-     line-height: 120px;
-        }
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: whitesmoke;
+    margin-top: 110px;
+    margin-bottom: 15px;
+}
+.nighted ul
+{
+    display: flex;
+    list-style: none;
+}
+.nighted li a{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: .8em;
+    margin-right: 20px;
+}
+.nighted span a{
+    font-size: .8em;
+    color: #888888;
+    color: whitesmoke;
+}
