@@ -50,7 +50,7 @@ table {
 }
 @font-face {
    font-family: 'Lora', serif;
-}
+}/* Общий ccs для body */
 body {
     background-image: url(images/bg.jpg);
     background-attachment: scroll;
@@ -59,12 +59,12 @@ body {
 }
 a { 
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
-   } 
+   }  
 .first {
     margin: 0 auto;
     display: flex;
     width: 960px;
-}
+} /* contacts */
 .contacts .first {
     font-family: 'Lora', serif;
     display: flex;
@@ -104,7 +104,7 @@ a {
 }
 header {
     padding: 45px 0;
-}
+} /* заголовок metrolium */
 header .menu{
     justify-content: center;
 }
@@ -137,7 +137,7 @@ header .menu{
     font-size: 24px;
     font-weight: 500;
     align-items: center;
-}
+} /* менюшка */
 .navigation li {
     text-transform: uppercase;
     float: left;
@@ -169,7 +169,7 @@ header .menu{
     width: 1170px;
     margin: 0 auto;
     padding: 15px 0;
-        }
+}   /* информация о странице */
 .home{
     color: white;
     padding: 0 10px 0 30px;
@@ -186,11 +186,9 @@ header .menu{
     align-items: left;
     color: gray;
     width: 1110px;
-    
     margin: 0 auto;
     padding:40px 10px 40px 0;
-    
-}
+} /* страница название */
 .port{
     color: white;
     font-size: 34px;
@@ -211,7 +209,7 @@ header .menu{
     padding: 0 0 0 5px;
     word-spacing: 40px;
     line-height: 25px;
-}
+} /* меню 2 */
 .fived .all{
     background: #2095a0;
     color: white;
@@ -254,8 +252,7 @@ header .menu{
     align-content:center;
     justify-content:flex-start;
     flex-flow: row wrap;
-    
-}
+} /* бокс с картинками */
 .blue{
     color: skyblue;
     font-size: 25px;
@@ -276,8 +273,7 @@ header .menu{
     justify-content: center;
     align-items: center;
     margin: 30px auto;
-    
- }
+}/* кнопка buy */
 .sixted {
      font-family: 'Lora', serif;
      line-height: 10px;
@@ -316,7 +312,7 @@ header .menu{
     margin: 40px auto;
     padding: 20px 20px;
     color: white;
-}
+} /* строка как нас найти */
 .ico a{
     align-items: center;
     justify-content: center;
@@ -332,7 +328,7 @@ header .menu{
     justify-content:space-between;
     color: #ccc;
     padding: 0 auto;
-        }
+} /* текущие записи твиттер, столбцы */
 .about{
     margin-left: 0;
 }
@@ -354,8 +350,7 @@ header .menu{
     color: whitesmoke;
     margin-top: 110px;
     margin-bottom: 15px;
-    
-}
+} /* нижня строка */
 .nighted ul
 {
     display: flex;
