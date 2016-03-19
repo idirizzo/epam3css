@@ -330,7 +330,7 @@ header .menu{
     font-family: 'Lora', serif;
     display: flex;
     justify-content:space-between;
-    color: whitesmoke;
+    color: #ccc;
     padding: 0 auto;
         }
 .about{
@@ -354,11 +354,13 @@ header .menu{
     color: whitesmoke;
     margin-top: 110px;
     margin-bottom: 15px;
+    
 }
 .nighted ul
 {
     display: flex;
     list-style: none;
+    font-size: .8em;
 }
 .nighted li a{
     text-transform: uppercase;
@@ -368,6 +370,6 @@ header .menu{
 }
 .nighted span a{
     font-size: .8em;
-    color: #888888;
-    color: whitesmoke;
+    
+    color: #ccc;
 }
