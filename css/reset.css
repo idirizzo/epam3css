@@ -59,6 +59,7 @@ body {
 }
 a { 
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    color: white;
    }  
 .first {
     margin: 0 auto;
@@ -330,9 +331,14 @@ header .menu{
     justify-content:space-between;
     color: #ccc;
     padding: 0 auto;
+    
 } /* текущие записи твиттер, столбцы */
+.eithrd .a{
+    color: #ccc;
+}
 .about{
     margin-left: 0;
+    padding: 10px 14px;
 }
 .head{
     flex: 0 0 100%;
@@ -340,12 +346,27 @@ header .menu{
     font-size: 1.5em;
     width: 370px;
 }
+.month {
+    text-align: right;
+}
+.tweet {
+    font-size: 0.9em;
+    background: #333333;
+    margin: 0 0 20px;
+    padding: 10px 14px;
+}
 .twitter{
     position: relative;
-    
+    padding: 10px 14px; 
+}
+.date {
+    padding: 10px 0;
+    color: #ccc;
 }
 .recent{
     margin-right: 5px;
+    padding: 10px 14px;
+    color: bisque;
 }
 .nighted {
     width: 1110px;
@@ -373,6 +394,5 @@ header .menu{
 }
 .nighted span a{
     font-size: .8em;
-    
     color: #ccc;
 }
