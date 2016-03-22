@@ -324,7 +324,7 @@ header .menu{
 }
 .eithrd {
     width: 1110px;
-    margin: 60px auto;
+    margin: 1px auto;
     display: flex;
     font-family: 'Lora', serif;
     display: flex;
@@ -377,7 +377,7 @@ header .menu{
     flex-direction: row;
     justify-content:space-between;
     color: whitesmoke;
-    margin-top: 110px;
+    margin-top: 30px;
     margin-bottom: 15px;
 } /* нижня строка */
 .nighted ul
